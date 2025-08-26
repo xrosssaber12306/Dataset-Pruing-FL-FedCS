@@ -17,13 +17,13 @@ torchvision >= 0.9
 numpy >= 1.19
 
 Readers do not need to replicate our setup exactly.
-## Configurations 🧮
+### Configurations 🧮
 * See `config.yaml`
   
-## Run 🏃🏻‍♀️
+### Run 🏃🏻‍♀️
 * `python main.py`
 
-## 🙋🏻‍♀️ Citation
+### 🙋🏻‍♀️ Citation
 
 If you find our codes useful for your research, please cite our paper. 🤭
 
