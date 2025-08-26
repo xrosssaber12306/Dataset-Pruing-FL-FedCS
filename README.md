@@ -6,7 +6,18 @@ Official PyTorch implementation of paper (CVPR 2025) 🤩
 ![image](https://github.com/xrosssaber12306/Dataset-Pruing-FL-FedCS/blob/main/imgs/Framework.png)
 # Abstract
 Federated Learning (FL) is an emerging direction in distributed machine learning that enables jointly training a model without sharing the data. However, as the size of datasets grows exponentially, computational costs of FL increase. In this paper, we propose the first Coreset Selection criterion for Federated Learning (FedCS) by exploring the Distance Contrast (DC) in feature space. Our FedCS is inspired by the discovery that DC can indicate the intrinsic properties inherent to samples regardless of the networks. Based on the observation, we develop a method that is mathematically formulated to prune samples with high DC. The principle behind our pruning is that high DC samples either contain less information or represent rare extreme cases, thus removal of them can enhance the aggregation performance. Besides, we experimentally show that samples with low DC usually contain substantial information and reflect the common features of samples within their classes, such that they are suitable for constructing coreset. With only two time of linear-logarithmic complexity operation, FedCS leads to significant improvements over the methods using whole dataset in terms of computational costs, with similar accuracies. For example, on the CIFAR-10 dataset with Dirichlet coefficient $\alpha=0.1$, FedCS achieves 58.88\% accuracy using only 44\% of the entire dataset, whereas other methods require twice the data volume as FedCS for same performance.
-# The paper has accepted by CVPR2025, the code will coming soon.  
+
+## Requirements
+torch >= 1.8
+torchvision >= 0.9
+numpy >= 1.19
+
+## Configurations
+* See `config.yaml`
+  
+## Run
+* `python3 main.py`
+
 ## 🙋🏻‍♀️ Citation
 
 If you find our codes useful for your research, please cite our paper. 🤭
@@ -19,3 +30,4 @@ If you find our codes useful for your research, please cite our paper. 🤭
   year={2025},
 }
 ```
+Mario Kart world is a good game.
