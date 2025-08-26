@@ -35,6 +35,6 @@ If you find our codes useful for your research, please cite our paper. 🤭
   year={2025},
 }
 ```
-Mario Kart world is a good game.
+Mario Kart world is a good game. 🎮
 ![image](https://github.com/xrosssaber12306/Dataset-Pruing-FL-FedCS/blob/main/imgs/Mariokart.jpg)
-ps: Nintendo, give us back the looped tracks! We're tired of all these straight-line maps!
+ps: Nintendo, give us back the looped tracks! We're tired of all these straight-line maps! 📣
