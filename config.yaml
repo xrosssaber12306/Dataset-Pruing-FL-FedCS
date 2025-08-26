@@ -1,0 +1,49 @@
+global_config:
+  seed: 12345
+  device: "cuda"
+  is_mp: False
+---
+data_config:
+  data_path: "./data/"
+  dataset_name: "CIFAR10"
+  num_shards: 500
+  iid: False
+  non_iid_labels_rate: 0.1
+  pruning_score_rule : "distance_different_pruning_without_center"    #distance_different_pruning or loss or random or loss or forgetting or distance_different_pruning_without_center
+  feature_keys : ['fc']
+  num_classes : 10
+  pruning_rate_f: 0.5
+  pruning_rate_l: 0.1
+  beta: 0.5
+---
+fed_config:
+  C: 1
+  K: 10
+  R: 200
+  E: 5
+  B: 64
+  criterion: torch.nn.CrossEntropyLoss
+  optimizer: torch.optim.SGD
+  pre_rounds: 20
+  pre_interval_round : 2000
+  noisy_type: 'None'  #['pairflip','symmetric',None]
+  noisy_rate: 0.2
+  score_round: 15
+---
+optim_config:
+  lr: 0.01
+  momentum: 0.9
+---
+init_config:
+  init_type: "xavier"
+  init_gain: 1.0
+  gpu_ids: [0]
+---
+model_config: 
+  name: "resnet18"
+---
+log_config:
+  log_path: "./log/"
+  log_name:  "FL.log"
+  tb_port: 5252
+  tb_host: "0.0.0.0"
