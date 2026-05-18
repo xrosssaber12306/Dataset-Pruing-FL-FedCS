@@ -1,7 +1,7 @@
 # 📍 Dataset-Pruing-FL-FedCS
 Official PyTorch implementation of paper (CVPR 2025) 🤩
 "FedCS：Coreset Selection for Federated Learning" 
->[Chenhe Hao](https://github.com/xrosssaber12306), [Weiying Xie](https://scholar.google.com/citations?user=y0ha5lMAAAAJ&hl=zh-CN), [Daixun Li](https://scholar.google.cz/citations?user=gaiP4-IAAAAJ&hl=zh-CN&oi=ao), [Haonan Qin](https://scholar.google.cz/citations?hl=zh-CN&user=ePGTHqkAAAAJ), [Hangyu Ye](https://github.com/Yehangyu-XD), [Leyuan Fang](https://scholar.google.cz/citations?user=Gfa4nasAAAAJ&hl=zh-CN&oi=ao), [Yunsong Li](https://ieeexplore.ieee.org/author/37292407800)<br>
+>[Chenhe Hao](https://github.com/HCH-XDU), [Weiying Xie](https://scholar.google.com/citations?user=y0ha5lMAAAAJ&hl=zh-CN), [Daixun Li](https://scholar.google.cz/citations?user=gaiP4-IAAAAJ&hl=zh-CN&oi=ao), [Haonan Qin](https://scholar.google.cz/citations?hl=zh-CN&user=ePGTHqkAAAAJ), [Hangyu Ye](https://github.com/Yehangyu-XD), [Leyuan Fang](https://scholar.google.cz/citations?user=Gfa4nasAAAAJ&hl=zh-CN&oi=ao), [Yunsong Li](https://ieeexplore.ieee.org/author/37292407800)<br>
 >XDU and HNU
 ![image](https://github.com/xrosssaber12306/Dataset-Pruing-FL-FedCS/blob/main/imgs/Framework.png)
 Here is the [video](https://youtu.be/j9tpus2MHTg) 📺.
